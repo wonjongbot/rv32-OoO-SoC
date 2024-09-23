@@ -2,8 +2,8 @@
 // set up infra to test predictor with trace
 module tage_top (
     input logic clk, rst,
-    input logic [31:0] branch_pc,
     input logic [31:0] update_pc,
+    input logic [31:0] branch_pc,
     input logic update_valid,
     input logic update_taken,
     input logic [1:0] update_pred,

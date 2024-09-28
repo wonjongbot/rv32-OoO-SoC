@@ -1,1 +1,14 @@
 work/*
+._*
+scripts/1.ipynb
+settings.json
+third-party/*
+sim_build/*
+logs/*
+config/*
+__pycache__
+modelsim.ini
+obj_dir/*
+waves/*
+src/data/DIST*
+transcript

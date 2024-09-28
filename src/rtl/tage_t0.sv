@@ -1,4 +1,5 @@
-`include "dual_port_ram.sv"
+/* verilator lint_off UNUSED */
+`include "/home/wonjongbot/rv32-OoO-SoC/src/rtl/dual_port_ram.sv"
 
 module tage_t0 (
     input clk, rst,
@@ -56,3 +57,4 @@ module tage_t0 (
       .q(q)
   );
 endmodule
+/* verilator lint_off UNUSED */

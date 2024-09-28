@@ -1,5 +1,7 @@
 // todo: test out the functinality of ghr
 // set up infra to test predictor with trace
+/* verilator lint_off UNUSED */
+`include "/home/wonjongbot/rv32-OoO-SoC/src/rtl/tage_t0.sv"
 module tage_top (
     input logic clk, rst,
     input logic [31:0] update_pc,
@@ -45,3 +47,4 @@ module tage_top (
     end
   end
 endmodule
+/* verilator lint_off UNUSED */
